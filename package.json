@@ -1,0 +1,20 @@
+{
+  "name": "create-react-component-with-stories",
+  "version": "1.0.6",
+  "description": "Reactコンポーネントとstoriesのファイルを生成するスクリプト",
+  "main": "index.js",
+  "bin": {
+    "create": "index.js"
+  },
+  "scripts": {
+    "cp": "node index.js cp"
+  },
+  "keywords": [],
+  "author": "JK",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "fs": "^0.0.1-security"
+  },
+  "type": "module"
+}
